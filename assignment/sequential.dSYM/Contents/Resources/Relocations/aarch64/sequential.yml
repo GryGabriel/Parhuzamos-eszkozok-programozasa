@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     sequential
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000033AC, symSize: 0xE0 }
+  - { offsetInCU: 0x79, offset: 0x79, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000033AC, symSize: 0xE0 }
+  - { offsetInCU: 0x111, offset: 0x111, size: 0x8, addend: 0x0, symName: _open_file, symObjAddr: 0xE0, symBinAddr: 0x10000348C, symSize: 0x6C }
+  - { offsetInCU: 0x147, offset: 0x147, size: 0x8, addend: 0x0, symName: _get_file_size, symObjAddr: 0x14C, symBinAddr: 0x1000034F8, symSize: 0x40 }
+  - { offsetInCU: 0x17D, offset: 0x17D, size: 0x8, addend: 0x0, symName: _read_words_from_text, symObjAddr: 0x18C, symBinAddr: 0x100003538, symSize: 0x250 }
+  - { offsetInCU: 0x22E, offset: 0x22E, size: 0x8, addend: 0x0, symName: _remove_numeric_values, symObjAddr: 0x3DC, symBinAddr: 0x100003788, symSize: 0xE8 }
+  - { offsetInCU: 0x2B4, offset: 0x2B4, size: 0x8, addend: 0x0, symName: _convert_to_lowercase, symObjAddr: 0x4C4, symBinAddr: 0x100003870, symSize: 0xB8 }
+  - { offsetInCU: 0x33A, offset: 0x33A, size: 0x8, addend: 0x0, symName: _read_stop_words, symObjAddr: 0x57C, symBinAddr: 0x100003928, symSize: 0x118 }
+  - { offsetInCU: 0x3DC, offset: 0x3DC, size: 0x8, addend: 0x0, symName: _evaluate_words, symObjAddr: 0x694, symBinAddr: 0x100003A40, symSize: 0xBC }
+  - { offsetInCU: 0x466, offset: 0x466, size: 0x8, addend: 0x0, symName: _print_words, symObjAddr: 0x750, symBinAddr: 0x100003AFC, symSize: 0x90 }
+  - { offsetInCU: 0x4B4, offset: 0x4B4, size: 0x8, addend: 0x0, symName: _free_dynamic_array, symObjAddr: 0x7E0, symBinAddr: 0x100003B8C, symSize: 0x64 }
+  - { offsetInCU: 0x502, offset: 0x502, size: 0x8, addend: 0x0, symName: _remove_word, symObjAddr: 0x844, symBinAddr: 0x100003BF0, symSize: 0x9C }
+  - { offsetInCU: 0x55E, offset: 0x55E, size: 0x8, addend: 0x0, symName: _get_non_duplicate_words, symObjAddr: 0x8E0, symBinAddr: 0x100003C8C, symSize: 0x13C }
+  - { offsetInCU: 0x612, offset: 0x612, size: 0x8, addend: 0x0, symName: _count_word, symObjAddr: 0xA1C, symBinAddr: 0x100003DC8, symSize: 0x94 }
+...
