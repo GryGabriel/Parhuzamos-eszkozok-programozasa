@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     sequential
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000338C, symSize: 0x1B0 }
+  - { offsetInCU: 0x66, offset: 0x66, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000338C, symSize: 0x1B0 }
+  - { offsetInCU: 0x138, offset: 0x138, size: 0x8, addend: 0x0, symName: _open_file, symObjAddr: 0x1B0, symBinAddr: 0x10000353C, symSize: 0xF4 }
+  - { offsetInCU: 0x17C, offset: 0x17C, size: 0x8, addend: 0x0, symName: _get_words, symObjAddr: 0x2A4, symBinAddr: 0x100003630, symSize: 0x258 }
+  - { offsetInCU: 0x214, offset: 0x214, size: 0x8, addend: 0x0, symName: _get_stopwords, symObjAddr: 0x4FC, symBinAddr: 0x100003888, symSize: 0x18C }
+  - { offsetInCU: 0x2AC, offset: 0x2AC, size: 0x8, addend: 0x0, symName: _validate_word, symObjAddr: 0x688, symBinAddr: 0x100003A14, symSize: 0x1C8 }
+  - { offsetInCU: 0x2FE, offset: 0x2FE, size: 0x8, addend: 0x0, symName: _is_stopword, symObjAddr: 0x850, symBinAddr: 0x100003BDC, symSize: 0x94 }
+  - { offsetInCU: 0x35E, offset: 0x35E, size: 0x8, addend: 0x0, symName: _is_duplicate, symObjAddr: 0x8E4, symBinAddr: 0x100003C70, symSize: 0xB0 }
+  - { offsetInCU: 0x3BE, offset: 0x3BE, size: 0x8, addend: 0x0, symName: _remove_character, symObjAddr: 0x994, symBinAddr: 0x100003D20, symSize: 0x88 }
+...
